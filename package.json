@@ -10,7 +10,7 @@
         "build": "webpack --mode production",
         "start": "webpack-dev-server --open",
         "clean" : "rm -rf dist",
-        "serve" : "serve -l 8080 dist "
+        "serve" : "node server.js "
     },
     "dependencies": {
         "formik": "^2.1.4",
