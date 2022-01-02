@@ -8,7 +8,9 @@
     "license": "MIT",
     "scripts": {
         "build": "webpack --mode production",
-        "start": "webpack-dev-server --open"
+        "start": "webpack-dev-server --open",
+        "clean" : "rm -rf dist",
+        "serve" : "serve -l 8080 dist "
     },
     "dependencies": {
         "formik": "^2.1.4",
