@@ -1,0 +1,9 @@
+services:
+  webapp:
+    image: andrewc2020/signup
+    ports:
+      - "8080:8080"
+  backend:
+     image: andrewc2020/signup_backend
+     ports:
+      - "4000:4000"
